@@ -415,7 +415,17 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 
 #thirdpage {
 	height: 100%;
-	background: url(img/Table.jpg) center / cover fixed;
+}
+
+#thirdpage:before {
+    content: '';
+    background-image: url("img/Table.jpg") no-repeat 50% / cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
 }
 
 .thirdpagecontent {
@@ -549,8 +559,15 @@ margin-top: 2vw ;
 /*5 СТРАНИЦА*/
 
 
-#fivepage {
-		background: url("img/Breakfast.jpg") center / cover fixed;
+#fivepage:before {
+    content: '';
+    background-image: url("img/Breakfast.jpg") no-repeat 50% / cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
 }
 
 .fivetitle {
