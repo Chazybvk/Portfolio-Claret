@@ -783,17 +783,5 @@ iframe {
 	width: 340px;
 	height: 255px;
 }
-#thirdpage {
-	background: url(img/bg3.jpg) center;
-}
-#fivepage {
-	background: url(img/bg3.jpg) center;
-}
-.thirdpagecontainer {
-	background-color: rgba(0, 0, 0, 0);
-}
-.fivetitle {
-	background-color: rgba(0, 0, 0, 0);
-}
 }
 
