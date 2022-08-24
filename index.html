@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/png">
+	<!-- ШРИФТ -->
+	<style>
+		@font-face {
+			font-family: Oswald;
+			src: url("fonts/Oswald.ttf");
+		}
+	</style>
+
+	<title>Café Claret</title>
+</head>
+
+<body>
+
+	<div class="wrapper">
+
+	<header class="header">
+		<div class="wrapper-header-content">
+			<div class="logo"><img src="img/claret_logo.png"></div>
+			<nav>
+				<ul class="header-navigation">
+					<li class="header-navigation__item"><a href="#firstpage">Главная</a></li>
+					<li class="header-navigation__item"><a href="#secondpage">Ресторан</a></li>
+					<li class="header-navigation__item"><a href="#fourthpage">Меню</a></li>
+					<li class="header-navigation__item"><a href="#fivepage">События</a></li>
+					<li class="header-navigation__item"><a href="#sixpage">Контакты</a></li>
+				</ul>
+			</nav>
+
+			<div class="cellphone">+7 (921) 188-65-46</div>
+				
+			<button class="button">Бронь столов</button>	
+
+		</div>
+	</header>
+
+	<!-- 1 СТРАНИЦА -->	
+	
+		<section class="allpages" id="firstpage">
+
+			<div class="container">
+			
+				<div class="containercontent">
+					<div class="titleoffirstpage">
+						<h1 class="titleone"> Cafe Claret</h1>
+					</div>
+					<div class="textoffirstpage">
+						<p1 class="pfirstpage"> Ресторан авторской кухни в центре Санкт-Петербурга</p1>
+					</div>
+
+					
+				</div>
+				
+			</div>
+
+		</section>
+
+	<!-- 2 СТРАНИЦА -->	
+
+		<section class="allpages" id="secondpage">
+
+			<div class="container">
+
+				<div class="containersecondpage">
+
+					<div class="titleofsecondpage">
+						<h1 class="secondtitle">О Café Claret</h1>
+					</div>
+
+						<!-- СЛАЙДЕР -->	
+
+						<div class="slider">
+    						<div class="item">
+        					<img src="img/slide1.jpg" alt="Первый слайд">
+    					</div>
+
+    					<div class="item">
+        					<img src="img/slide2.jpg" alt="Второй слайд">
+    					</div>
+
+    					<div class="item">
+        					<img src="img/slide3.jpg" alt="Третий слайд">
+    					</div>
+
+    					<a class="prev" onclick="minusSlide()">&#10094;</a>
+    					<a class="next" onclick="plusSlide()">&#10095;</a>
+					</div>
+
+					<div class="slider-dots">
+    					<span class="slider-dots_item" onclick="currentSlide(1)"></span> 
+    					<span class="slider-dots_item" onclick="currentSlide(2)"></span> 
+    					<span class="slider-dots_item" onclick="currentSlide(3)"></span> 
+					</div>
+
+					<div class="textofsecondpage">
+						<p1 class="textsecond">В Cafe Claret вы почувствуете атмосферу гастрономического путешествия, которую создает обширное и колоритное меню ресторана. В нем встретились гастрономические традиции из разных уголков мира, авторский взгляд бренд-шефа Александра Богданова, современные технологии и ставка на локальные продукты.</p1>
+					</div>
+
+				</div>
+
+			</div>
+		
+		</section>
+
+	<!-- 3 СТРАНИЦА -->	
+
+	<section class="allpages" id="thirdpage">
+
+		<div class="container">
+
+			<div class="thirdpagecontent">
+
+				<div class="thirdpagecontainer">
+
+					<div class="bgphoto bgphotochef">
+						
+					</div>
+
+					<h1 class="nameguys">Бренд-шеф</br> Александр</br> Богданов</h1>
+
+					<p1 class="aboutguys">Александр переосмысливает традиционные и любимые всеми рецепты разных уголков мира, создавая удивительно колоритное меню, где каждый гость найдет что-то на свой вкус.</p1>
+
+				</div>
+
+					
+				<div class="thirdpagecontainer">
+
+					<div class="bgphoto bgphotowine">
+						
+					</div>
+					<h1 class="nameguys">Сомелье</br> Роман</br> Манжуков</h1>
+					<p1 class="aboutguys">Роман посоветует вам идеальное вино к любому блюду, расскажет о винодельческих традициях, особенностях сортов и многих других нюансов создания этого виноградного напитка.</p1>
+
+				</div>			
+			</div>
+
+		</div>			
+	</section>
+
+	<!-- 4 СТРАНИЦА -->
+
+	<section class="allpages" id="fourthpage">
+
+		<div class="container">
+
+			<!-- РАЗДЕЛИТЕЛЬ -->	
+			<div class="splitter"></div>
+
+			<h1 class="titlemenu">Меню ресторана</h1>
+
+				<div class="fourthpagerow">
+
+					<div class="column">
+
+						<h2 class="submenu">Закуски</h2>
+
+						<div class="columnitem">
+
+							<div class="grid-item">
+								<p1 class="menutext">ПЫШКИ С МЯГКИМ СЫРОМ И ЧЕРНЫМ ТРЮФЕЛЕМ</p1>
+							</div>
+							<div class="grid-item2">
+								<p1 class="menutext">350</p1>
+							</div>
+							<div class="grid-item">
+								<p1 class="menutext">ТАРТАР ИЗ ГОВЯДИНЫ</p1>
+							</div>
+							<div class="grid-item2">
+								<p1 class="menutext">790</p1>
+							</div>
+							<div class="grid-item">
+								<p1 class="menutext">КРЕВЕТКИ С ПЕЧЕНЫМ ЧЕСНОКОМ И БИСКОМ</p1>
+							</div>
+							<div class="grid-item2">
+								<p1 class="menutext">1150</p1>
+							</div>
+							<div class="grid-item">
+								<p1 class="menutext">ПОДОВЫЙ ХЛЕБ С ЖУЛЬЕНОМ ИЗ ВЕШЕНОК И КРАБОМ</p1>
+							</div>
+							<div class="grid-item2">
+								<p1 class="menutext">1190</p1>
+							</div>
+							<div class="grid-item">
+								<p1 class="menutext">ПАШТЕТ ИЗ ПЕЧЕНИ ЦЫПЛЕНКА С ЦУКАТАМИ ИЗ ЯБЛОКА И КОРИЦЫ</p1>
+							</div>
+							<div class="grid-item2">
+								<p1 class="menutext">590</p1>
+							</div>
+							<div class="grid-item">
+								<p1 class="menutext">ГРЕБЕШОК С ПЮРЕ ИЗ ТОПИНАМБУРА</p1>
+							</div>
+							<div class="grid-item2">
+								<p1 class="menutext">750</p1>
+							</div>
+							<div class="grid-item">
+								<p1 class="menutext">КАЛЬМАР С КОПЧЕНОЙ СМЕТАНОЙ И МИСО</p1>
+							</div>
+							<div class="grid-item2">
+								<p1 class="menutext">710</p1>
+							</div>
+							<div class="grid-item">
+								<p1 class="menutext">БАКЛАЖАН С КРЕМОМ ИЗ МАКАДАМИИ</p1>
+							</div>
+							<div class="grid-item2">
+								<p1 class="menutext">350</p1>
+							</div>
+							<div class="grid-item">
+								<p1 class="menutext">ТОМАТЫ КИМЧИ</p1>
+							</div>
+							<div class="grid-item2">
+								<p1 class="menutext">350</p1>
+							</div>
+							<div class="grid-item">
+								<p1 class="menutext">ГРАВЛАКС С КРЕМОМ ИЗ ЯБЛОКА И ШПИНАТА</p1>
+							</div>
+							<div class="grid-item2">
+								<p1 class="menutext">990</p1>
+							</div>
+							<div class="grid-item">
+								<p1 class="menutext">ПЕЛЬМЕНИ С ДИКИМ КАБАНЧИКОМ И ТРЮФЕЛЕМ</p1>
+							</div>
+							<div class="grid-item2">
+								<p1 class="menutext">690</p1>
+							</div>
+							<div class="grid-item">
+								<p1 class="menutext">ТЕЛЯТИНА С СОУСОМ ТОННАТО</p1>
+							</div>
+							<div class="grid-item2">
+								<p1 class="menutext">750</p1>
+							</div>
+							<div class="grid-item">
+								<p1 class="menutext">БЕЛЫЕ ГРИБЫ ПРИПУЩЕННЫЕ В СЛИВОЧНОМ МАСЛЕ С ПЕНОЙ ИЗ ПАРМЕЗАНА И ТРЮФЕЛЯ</p1>
+							</div>
+							<div class="grid-item2">
+								<p1 class="menutext">850</p1>
+							</div>
+							
+						</div>
+					
+					</div>
+
+					<div class="column">
+
+						<h2 class="submenu">Салаты</h2>
+
+						<div class="columnitem">
+							<div class="grid-item">
+								<p1 class="menutext">САЛАТ С ТРЕСКОЙ ГОРЯЧЕГО КОПЧЕНИЯ</p1>
+							</div>
+							<div class="grid-item2">
+								<p1 class="menutext">550</p1>
+							</div>
+							<div class="grid-item">
+								<p1 class="menutext">САЛАТ ИЗ КАБАЧКА С РИКОТТОЙ</p1>
+							</div>
+							<div class="grid-item2">
+								<p1 class="menutext">630</p1>
+							</div>
+							<div class="grid-item">
+								<p1 class="menutext">БУРРАТА С ТОМАТАМИ</p1>
+							</div>
+							<div class="grid-item2">
+								<p1 class="menutext">710</p1>
+							</div>
+							<div class="grid-item">
+								<p1 class="menutext">СВЕЖИЕ ЛИСТЬЯ САЛАТА С КУНЖУТНОЙ ЗАПРАВКОЙ И АВОКАДО</p1>
+							</div>
+							<div class="grid-item2">
+								<p1 class="menutext">590</p1>
+							</div>
+							<div class="grid-item">
+								<p1 class="menutext">ТЕЛЯТИНА С БАКЛАЖАНАМИ И СОУСОМ НА ОСНОВЕ МАЦОНИ</p1>
+							</div>
+							<div class="grid-item2">
+								<p1 class="menutext">530</p1>
+							</div>
+							<div class="grid-item">
+								<p1 class="menutext">КОПЧЕНАЯ УТИНАЯ ГРУДКА С ЗЕЛЕНЫМ САЛАТОМ И СОУСОМ НА ОСНОВЕ МАЛИНОВОГО УКСУСА</p1>
+							</div>
+							<div class="grid-item2">
+								<p1 class="menutext">730</p1>
+							</div>
+							<div class="grid-item">
+								<p1 class="menutext">НИСУАЗ</p1>
+							</div>
+							<div class="grid-item2">
+								<p1 class="menutext">890</p1>
+							</div>
+							<div class="grid-item">
+								<p1 class="menutext">ОВОЩНОЙ САЛАТ С ДЕРЕВЕНСКОЙ СМЕТАНОЙ И ЯЙЦОМ ПАШОТ</p1>
+							</div>
+							<div class="grid-item2">
+								<p1 class="menutext">650</p1>
+							</div>
+							<div class="grid-item">
+								<p1 class="menutext">САЛАТ С КРАБОМ</p1>
+							</div>
+							<div class="grid-item2">
+								<p1 class="menutext">1290</p1>
+							</div>
+							
+							
+						</div>
+
+					</div>
+					
+				</div>
+				<div class="fourthpagerow">
+					<div class="column">
+
+						<h2 class="submenu">Супы</h2>
+
+						<div class="columnitem">
+
+							<div class="grid-item">
+								<p1 class="menutext">КУРИНЫЙ БУЛЬОН С ПЕЧЕНЫМИ ОВОЩАМИ</p1>
+							</div>
+							<div class="grid-item2">
+								<p1 class="menutext">650</p1>
+							</div>
+							<div class="grid-item">
+								<p1 class="menutext">ТОМАТНЫЙ СУП С МОЦАРЕЛЛОЙ</p1>
+							</div>
+							<div class="grid-item2">
+								<p1 class="menutext">590</p1>
+							</div>
+							<div class="grid-item">
+								<p1 class="menutext">ЩИ ИЗ ПЯТИ ВИДОВ ГРИБОВ С ТРЮФЕЛЕМ</p1>
+							</div>
+							<div class="grid-item2">
+								<p1 class="menutext">890</p1>
+							</div>
+							<div class="grid-item">
+								<p1 class="menutext">ИСПАНСКИЙ СУП С ТЕЛЯЧЬИМИ ХВОСТАМИ</p1>
+							</div>
+							<div class="grid-item2">
+								<p1 class="menutext">690</p1>
+							</div>
+							<div class="grid-item">
+								<p1 class="menutext">ГОВЯЖИЙ КОНСОМЕ С ПОДОВЫМ ХЛЕБОМ И ТОПЕНАДОЙ</p1>
+							</div>
+							<div class="grid-item2">
+								<p1 class="menutext">770</p1>
+							</div>
+							<div class="grid-item">
+								<p1 class="menutext">СУП-ПЮРЕ ИЗ ЗЕЛЕНОГО ГОРОШКА С КРЕВЕТКАМИ</p1>
+							</div>
+							<div class="grid-item2">
+								<p1 class="menutext">890</p1>
+							</div>
+							<div class="grid-item">
+								<p1 class="menutext">БУЙАБЕС С ОГНЯ</p1>
+							</div>
+							<div class="grid-item2">
+								<p1 class="menutext">1250</p1>
+							</div>
+								
+						</div>
+					
+					</div>
+
+					<div class="column">
+
+						<h2 class="submenu">Рыба</h2>
+
+						<div class="columnitem">
+
+							<div class="grid-item">
+								<p1 class="menutext">СУДАК С ЦВЕТНОЙ КАПУСТОЙ И СОУСОМ БЕАРНЕЗ</p1>
+							</div>
+							<div class="grid-item2">
+								<p1 class="menutext">790</p1>
+							</div>
+							<div class="grid-item">
+								<p1 class="menutext">ПАЛТУС С ПРИПУЩЕННЫМИ ОВОЩАМИ</p1>
+							</div>
+							<div class="grid-item2">
+								<p1 class="menutext">890</p1>
+							</div>
+							<div class="grid-item">
+								<p1 class="menutext">ФОРЕЛЬ В ВОСКЕ</p1>
+							</div>
+							<div class="grid-item2">
+								<p1 class="menutext">1190</p1>
+							</div>
+							<div class="grid-item">
+								<p1 class="menutext">ВОНГОЛЕ С СОУСОМ НА ВЫБОР</p1>
+							</div>
+							<div class="grid-item2">
+								<p1 class="menutext">1490</p1>
+							</div>
+							<div class="grid-item">
+								<p1 class="menutext">ЧЕРНАЯ ТРЕСКА С КРЕМОМ ИЗ ТОПИНАМБУРА</p1>
+							</div>
+							<div class="grid-item2">
+								<p1 class="menutext">1190</p1>
+							</div>
+									
+						</div>
+					</div>		
+				</div>
+
+				<div class="fourthpagerow">
+
+					<div class="column">
+						<h2 class="submenu">Мясо</h2>
+
+						<div class="columnitem">
+							<div class="grid-item">
+								<p1 class="menutext">ГРУДКА ЦЫПЛЕНКА С ОВОЩАМИ КОНФИ И СОУСОМ ЖУ</p1>
+							</div>
+							<div class="grid-item2">
+								<p1 class="menutext">830</p1>
+							</div>
+							<div class="grid-item">
+								<p1 class="menutext">ГОВЯЖЬИ ХВОСТЫ С ПТИТИМОМ И ТОПЕНАДОЙ</p1>
+							</div>
+							<div class="grid-item2">
+								<p1 class="menutext">890</p1>
+							</div>
+							<div class="grid-item">
+								<p1 class="menutext">УТКА СО СЛАДКИМ ПЕРЦЕМ</p1>
+							</div>
+							<div class="grid-item2">
+								<p1 class="menutext">1290</p1>
+							</div>
+							<div class="grid-item">
+								<p1 class="menutext">ОЛЕНИНА С КРЕМОМ ИЗ КОРНЕПЛОДОВ И ОЛИВКАМИ ИЗ ВИНОГРАДА</p1>
+							</div>
+							<div class="grid-item2">
+								<p1 class="menutext">1490</p1>
+							</div>
+						</div>
+
+					</div>
+
+					<div class="column">
+						<h2 class="submenu">Паста</h2>
+
+						<div class="columnitem">
+							<div class="grid-item">
+								<p1 class="menutext">ПАСТА С СОУСОМ МАРИНАРА И МОЦАРЕЛЛОЙ</p1>
+							</div>
+							<div class="grid-item2">
+								<p1 class="menutext">790</p1>
+							</div>
+							<div class="grid-item">
+								<p1 class="menutext">ПАСТА КАРБОНАРА СО СЛИВКАМИ</p1>
+							</div>
+							<div class="grid-item2">
+								<p1 class="menutext">690</p1>
+							</div>
+							<div class="grid-item">
+								<p1 class="menutext">ПАСТА С ВОНГОЛЕ</p1>
+							</div>
+							<div class="grid-item2">
+								<p1 class="menutext">870</p1>
+							</div>
+							<div class="grid-item">
+								<p1 class="menutext">ПАСТА С БЕЛЫМИ ГРИБАМИ</p1>
+							</div>
+							<div class="grid-item2">
+								<p1 class="menutext">630</p1>
+							</div>
+						</div>
+
+					</div>
+
+				</div>
+
+				<div class="fourthpagerow">
+
+					<div class="column">
+						<h2 class="submenu">Овощи</h2>
+
+						<div class="columnitem">
+							<div class="grid-item">
+								<p1 class="menutext">КАРТОФЕЛЬНЫЙ ГРАТЕН С ТРЮФЕЛЕМ</p1>
+							</div>
+							<div class="grid-item2">
+								<p1 class="menutext">450</p1>
+							</div>
+							<div class="grid-item">
+								<p1 class="menutext">МОРКОВЬ В СПЕЦИЯХ С СОУСОМ ГОЛЛАНДЕЗ</p1>
+							</div>
+							<div class="grid-item2">
+								<p1 class="menutext">490</p1>
+							</div>
+							<div class="grid-item">
+								<p1 class="menutext">ЦВЕТНАЯ КАПУСТА ПРИПУЩЕННАЯ В МАСЛЕ БЕР НУАЗЕТ</p1>
+							</div>
+							<div class="grid-item2">
+								<p1 class="menutext">550</p1>
+							</div>
+							
+						</div>
+						
+
+					</div>
+
+					<div class="column">
+						<h2 class="submenu">ГРИЛЬ</h2>
+
+						<div class="columnitem">
+							<div class="grid-item">
+								<p1 class="menutext">СПИНКА ТРЕСКИ</p1>
+							</div>
+							<div class="grid-item2">
+								<p1 class="menutext">690</p1>
+							</div>
+							<div class="grid-item">
+								<p1 class="menutext">ТУНЕЦ</p1>
+							</div>
+							<div class="grid-item2">
+								<p1 class="menutext">1390</p1>
+							</div>
+							<div class="grid-item">
+								<p1 class="menutext">МАЧЕТЕ</p1>
+							</div>
+							<div class="grid-item2">
+								<p1 class="menutext">2290</p1>
+							</div>
+							<div class="grid-item">
+								<p1 class="menutext">ФИЛЕ МИНЬОН</p1>
+							</div>
+							<div class="grid-item2">
+								<p1 class="menutext">2690</p1>
+							</div>
+							<div class="grid-item">
+								<p1 class="menutext">РИБАЙ</p1>
+							</div>
+							<div class="grid-item2">
+								<p1 class="menutext">4490</p1>
+							</div>
+						</div>
+
+					</div>
+
+				</div>
+
+			<!-- РАЗДЕЛИТЕЛЬ -->	
+			<div class="splitter"></div>
+			</div>
+
+		</div>
+
+	</section>
+
+<!-- 5 СТРАНИЦА -->	
+
+	<section class="allpages" id="fivepage">
+
+		<div class="container">
+
+			<h1 class="secondtitle fivetitle">События</h1>
+
+			<div class="wrapperfivepage">
+
+				<div class="fivepageitem">
+
+					<div class="bgitem item1">
+					</div>
+
+					<div class="itemtext">
+
+						<h3 class="itemtitle">Ужины с Юнисом Теймурханлы в отеле «Гельвеция»</h3>
+						<p1 class="textforitem">Каждый четверг в 19.00 Юнис Теймурханлы собирает за столом в Cafe Claret друзей отеля и своих единомышленников, а также тех, кто хочет войти в этот круг и провести вечер увлекательно и со вкусом.</p1>
+
+					</div>
+
+					<a href="#popup1" class="view"><button class="viewmore">Подробнее</button></a>
+
+				</div>
+				<div class="fivepageitem">
+
+					<div class="bgitem item2">
+					</div>
+
+					<div class="itemtext">
+
+						<h3 class="itemtitle">Обновленное меню в Cafe Claret</h3>
+						<p1 class="textforitem">Бренд-шеф Cafe Claret Александр Богданов обновил меню, удержав средний чек в привычном и доступном для гостя диапазоне и сохранив концепцию заведения − комфортная еда в космополитичном гастрономическом контексте.</p1>
+
+					</div>
+
+					<a href="#popup2" class="view"><button class="viewmore">Подробнее</button></a>
+
+				</div>
+				<div class="fivepageitem">
+
+					<div class="bgitem item3">
+					</div>
+
+					<div class="itemtext">
+
+						<h3 class="itemtitle">Завтраки в Cafe Claret</h3>
+						<p1 class="textforitem">Завтраки в Cafe Claret – это почти два десятка позиций и аппетитный микс гастрономических традиций России, Азии, Европы и Ближнего Востока: крок мадам и гречка с эспумой из пармезана, драники из цуккини с лососем холодного копчения и фундучный финансье с мисо карамелью и мороженым из халвы.</p1>
+
+					</div>
+
+					<a href="#popup3" class="view"><button class="viewmore">Подробнее</button></a>
+
+				</div>
+				<div class="fivepageitem">
+
+					<div class="bgitem item4">
+					</div>
+
+					<div class="itemtext">
+
+						<h3 class="itemtitle">Сет Classic - лучшие хиты ресторана Claret</h3>
+						<p1 class="textforitem">В Claret Cafe появился по истине легендарный сет Classic из 7-ми самых топовых блюд от бренд-шефа Александра Богданова за всю историю ресторана.</p1>
+
+					</div>
+
+					<a href="#popup4" class="view"><button class="viewmore">Подробнее</button></a>
+
+				</div>
+
+			</div>
+
+		</div>
+			<!-- ПОПАП -->
+					<div id="popup1" class="popup">
+						<a href="#" class="popup_area"></a>
+					<div class="popup_body">
+					<div class="popup_content">
+						<a href="#" class="popup_close"></a>
+						<div class="popup_bg popup1"></div>
+						<div class="popup_title">Ужины с Юнисом Теймурханлы в отеле «Гельвеция»</div>
+						<div class="popup_text">Каждый четверг в 19.00 Юнис Теймурханлы собирает за столом в Cafe Claret друзей отеля и своих единомышленников, а также тех, кто хочет войти в этот круг и провести вечер увлекательно и со вкусом. Гости вечера, которые проживают в отеле или уже знакомы с Юнисом лично, смогут вновь пообщаться с владельцем и душевно проведут вечер. А гости, которые еще не знакомы с отелем, получат возможность лично познакомиться с Юнисом. За дружеском беседой Юнис будет рад поделиться уникальным для Петербурга опытом построения успешного частного несетевого отельного бизнеса. Помимо увлекательной беседы гости смогут посмотреть «Гельвецию» изнутри, познакомиться с бизнесом и творчеством Юниса и получить в подарок книгу с автографом от автора. Также бренд-шеф ресторана Александр Богданов лично представит гостям свой авторский сет Classic из семи курсов, а винное сопровождение предложит сомелье отеля Роман Манжуков.Стоимость участия в ужине, куда входит сет из 7 курсов, составляет 3500 рублей.</div>
+					</div>
+					</div>
+					</div>
+			<!-- ПОПАП -->
+			<!-- ПОПАП -->
+					<div id="popup2" class="popup">
+						<a href="#" class="popup_area"></a>
+					<div class="popup_body">
+					<div class="popup_content">
+						<a href="#" class="popup_close"></a>
+						<div class="popup_bg popup2"></div>
+						<div class="popup_title">Обновленное меню в Cafe Claret</div>
+						<div class="popup_text">Бренд-шеф Cafe Claret Александр Богданов обновил меню, удержав средний чек в привычном и доступном для гостя диапазоне и сохранив концепцию заведения − комфортная еда в космополитичном гастрономическом контексте.Закуски:</br> Пышки с трюфелем и мягким сыром - 350 р.</br>Кальмар с копченой сметаной и мисо - 710 р.</br>Кукурузная бриошь с крабом - 1 1190 р.</br>Паста:</br>Паста с вонголе - 870 р.</br>Паста с белыми грибами - 630 р.</br>Паста с соусом маринара и моцареллой - 790 р.</br>На гриле:</br>Тунец на гриле - 1 390 р.</br>Спинка трески на гриле - 690 р.</br>Филе миньон на гриле - 2 690 р.</br>Рибай на гриле - 4 490 р.</br>Мачете на гриле - 2 290 р.</br>Супы:</br> Щи из пяти видов грибов с трюфелем - 890 р.</br>Говяжий консоме с подовым хлебом и тапенадой - 770 р.</br>Буйабес - 1 250 р.</br>Томатный суп с моцареллой - 590 р.</br>Рыба:</br>Судак с цветной капустой и соусом беарнез - 790 р.</br>Форель в воске - 1 190 р.</br>Вонголе с соусом на выбор - 1 490 р.</br>Мясо:</br>Бычьи хвосты с птитимом и тапенадой - 890 р.</br>Оленина с кремом из корнеплодов и оливками из винограда - 1 490 р.</br>Утка с перцем рамиро - 1 290 р.</br>Бедро цыпленка с овощами конфи и соусом жу - 830 р.</br>Вегетарианские позиции:</br>Цветная капуста, припущенная в масле бер нуазет - 550 р.</br>Картофельный гратен с трюфелем - 450 р.</br>Морковь в специях с соусом голландез - 490 р.</br></div>
+					</div>
+					</div>
+					</div>
+			<!-- ПОПАП -->
+			<!-- ПОПАП -->
+					<div id="popup3" class="popup">
+						<a href="#" class="popup_area"></a>
+					<div class="popup_body">
+					<div class="popup_content">
+						<a href="#" class="popup_close"></a>
+						<div class="popup_bg popup3"></div>
+						<div class="popup_title">Завтраки в Cafe Claret</div>
+						<div class="popup_text">Завтраки в Cafe Claret – это почти два десятка позиций и аппетитный микс гастрономических традиций России, Азии, Европы и Ближнего Востока: крок мадам и гречка с эспумой из пармезана, драники из цуккини с лососем холодного копчения и фундучный финансье с мисо карамелью и мороженым из халвы.</br>Яйца:</br>Воздушный омлет со свежеиспеченной чиабаттой и свежими листьями салата - 590 руб.</br>Яичница из трех яиц со свежеиспеченной чиабаттой и свежими листьями салата - 390 руб.</br>Израильская шакшука - 550 руб.</br>Яйцо Бенедикт на кукурузной бриоши с копченой речной форелью, соусом беарнез и луком севок - 650 руб.</br> Омлет матушки Пуляр с грибами и кремом из пармезана - 870 руб.</br>Крок-мадам - 450 руб.</br>Не яйца:</br>Драники из цуккини с лососем холодного копчения - 950 руб.</br> Ленивые вареники с травами и копченым творогом - 470 руб.</br> Авокадо тост - 630 руб.</br> На сладкое:</br>Круассан с медом и взбитым маслом - 390 руб.</br> Сырники из самодельного рассыпчатого творога со взбитым йогуртом и джемом из сезонной ягоды - 530 руб.</br>Завтраки подают ежедневно с 12:00 до 23:00.</div>
+					</div>
+					</div>
+					</div>
+			<!-- ПОПАП -->
+			<!-- ПОПАП -->
+					<div id="popup4" class="popup">
+						<a href="#" class="popup_area"></a>
+					<div class="popup_body">
+					<div class="popup_content">
+						<a href="#" class="popup_close"></a>
+						<div class="popup_bg popup4"></div>
+						<div class="popup_title">Сет Classic - лучшие хиты ресторана Claret</div>
+						<div class="popup_text">В Claret Cafe появился по истине легендарный сет Classic из 7-ми самых топовых блюд от бренд-шефа Александра Богданова за всю историю ресторана.</br>Нежный паштет из печени цыпленка с яблоком и японской бриошью</br>Белые грибы с пеной из пармезана и трюфеля с лесным орехом</br>Пельмени с диким кабанчиком и трюфелем</br>Судак с бакинскими томатами, припущенными в топленом сливочном масле, с пеной из печеного сельдерея</br>Оленина с пюре из картофеля и белых грибов, с соусом на основе биска</br>Яблочный тарт с шариком ванильного мороженого с карамелью</br>Домашний флорентийский тирамису</br>Авторская подача в посуде, которая создает ностальгическое настроение и переносит нас в прошлое - это особенность сета Classic, а каждое из блюд по праву получило Место в сете, ведь наши гости из раза в раз возвращаются к нам именно за этими позициями.Если вам еще не удалось попробовать что-то из этого списка, то взять целый сет из самых популярных блюд - будет точно беспроигрышным вариантом!Ждем вас в гости на самые уютные вечера, Claret Cafe</div>
+					</div>
+					</div>
+					</div>
+			<!-- ПОПАП -->
+	</section>
+
+<!-- 6 СТРАНИЦА -->	
+
+	<section class="allpages" id="sixpage">
+
+		<div class="container">
+
+			<div class="sixpagerow">
+
+				<div class="sixpagefirstcolumn">
+
+					<div class="sixpagetitle">Контакты</div>
+					<div class="sixpagetext">
+						<p>+7-921-188-65-46</p>
+						<p>Санкт-Петербург, ул. Марата, д.11</p>
+						<p>Время работы</p>
+						<p>12:00 - 23:00</p>
+						<p>Ежедневно</p>
+						<p>info@claretcafe.ru</p>
+					</div>
+				</div>
+
+
+				<div class="sixpagesecondcolumn">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d249.8941567157406!2d30.353972294994257!3d59.9295991323912!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x469631a572cf570b%3A0xe1b075e1a48a8e4b!2sCafe%20Claret!5e0!3m2!1sru!2sru!4v1661338157061!5m2!1sru!2sru" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+				</div>
+				
+			</div>
+
+		</div>
+
+	</section>
+
+</div>
+</body>
+	<script src="script.js"></script>
+</html>
