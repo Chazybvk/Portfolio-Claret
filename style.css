@@ -768,6 +768,11 @@ iframe {
 	height: 255px;
 }
 }
+@media screen and (max-width: 1015px) {
+#firstpage {
+background: rgba(0, 0, 0 , 0);  
+}
+}
 
 @media screen and (max-width: 414px) {
 #thirdpage {
@@ -781,9 +786,6 @@ background-color: rgba(0, 0, 0, 0);
 }
 .thirdpagecontainer {
 background-color: rgba(0, 0, 0, 0);
-}
-#firstpage {
-background: rgba(0, 0, 0 , 0);  
 }
 .titleone {
 font-size: 100px;
