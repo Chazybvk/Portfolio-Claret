@@ -258,7 +258,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 
 #secondpage {
 	height: 100%;
-	background: url("img/bg2.jpg") center / cover no-repeat;
+	background: url("img/bg2.jpg") center;
 
 }
 .titleofsecondpage {
@@ -776,10 +776,10 @@ background: rgba(0, 0, 0 , 0);
 
 @media screen and (max-width: 414px) {
 #thirdpage {
-background: url("img/bg3.jpg") center / cover;
+background: url("img/bg3.jpg") center;
 }
 #fivepage {
-background: url("img/bg3.jpg") center / cover;
+background: url("img/bg3.jpg") center;
 }
 .fivetitle {
 background-color: rgba(0, 0, 0, 0);
