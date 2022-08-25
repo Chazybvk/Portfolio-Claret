@@ -172,61 +172,27 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 @keyframes changebg { 
   
        0% {
-       	background: url("img/Фон.jpg") center / cover no-repeat;
         background-size: 100%;
       }
 
         45% {
-       	background: url("img/Фон.jpg") center / cover no-repeat;
         background-size: 115%;
       }
 
         55% {
-       	background: url("img/Фон2.jpg") center / cover no-repeat;
-        background-size: 115%;
+        background-size: 100%;
       }
       
       100% {
-        background: url("img/Фон2.jpg") center / cover no-repeat;
-        background-size: 100%;
+        background-size: 115%;
       }
 }
 
 @media screen and (max-width: 1000px) {
 	.firstpage { 
-    animation: changebg 15s infinite;
+    animation: none;
     animation-direction: alternate;
 }
-@keyframes changebg { 
-  
-       0% {
-       	background: url("img/Фон.jpg") center / cover no-repeat;
-      }
-
-        40% {
-       	background: url("img/Фон.jpg") center / cover no-repeat;
-      }
-
-        60% {
-       	background: url("img/Фон2.jpg") center / cover no-repeat;
-      }
-      
-      100% {
-        background: url("img/Фон2.jpg") center / cover no-repeat;
-      }
-}
-}
-
-@keyframes animation-name {   
-  0% {     
-    color: pink;   
-  }   
-  50% {     
-    color: yellow;   
-  } 
-  100% {
-    color: blue;
-   }
 }
 
 @media screen and (max-width: 414px) {
@@ -800,6 +766,30 @@ margin: 2vw 0;
 iframe {
 	width: 340px;
 	height: 255px;
+}
+}
+
+@media screen and (max-width: 414px) {
+#thirdpage {
+background: url("img/bg3.jpg") center / cover;
+}
+#fivepage {
+background: url("img/bg3.jpg") center / cover;
+}
+.fivetitle {
+background-color: rgba(0, 0, 0, 0);
+}
+.thirdpagecontainer {
+background-color: rgba(0, 0, 0, 0);
+}
+#firstpage {
+background: rgba(0, 0, 0 , 0);  
+}
+.titleone {
+font-size: 100px;
+}
+.pfirstpage {
+	font-size: 20px;
 }
 }
 
