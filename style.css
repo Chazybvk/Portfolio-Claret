@@ -799,14 +799,20 @@ background-color: rgba(0, 0, 0, 0);
 .titleone {
 font-size: 100px;
 }
+.textforitem {
+ letter-spacing: 0px;
+
+}
 .pfirstpage {
 	font-size: 20px;
 }
 .menutext {
-    font-size: 12px;
+    font-size: 15px;
 }
 .popup_close {
     top: 3vw;
 }
+.aboutguys {
+    letter-spacing: 0px;
 }
 
