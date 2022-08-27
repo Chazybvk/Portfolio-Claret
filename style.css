@@ -806,5 +806,8 @@ font-size: 100px;
 .menutext {
     font-size: 12px;
 }
+.popup_close {
+    top: 3vw;
+}
 }
 
