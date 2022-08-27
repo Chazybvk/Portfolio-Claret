@@ -99,6 +99,9 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 	color: white;
 	text-transform: uppercase;
 }
+.button1 {
+	display: none;
+}
 
 
 
@@ -800,7 +803,6 @@ font-size: 100px;
 .textforitem {
  letter-spacing: 0px;
 font-size: 17px;
-
 }
 .pfirstpage {
 	font-size: 20px;
@@ -813,5 +815,9 @@ font-size: 17px;
 }
 .aboutguys {
     letter-spacing: 0px;
+}
+.button1 {
+    display: block;
+}
 }
 
