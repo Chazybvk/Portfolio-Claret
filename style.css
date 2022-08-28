@@ -105,6 +105,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 }
 #button1 {
 	display: none;
+	box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.8);
 }
 
 
@@ -275,6 +276,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 .containersecondpage {
 	display: flex;
 	flex-direction: column;
+	box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.8);
 }
 
 .secondtitle {
@@ -295,6 +297,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
     height: 50vw;
     max-height: 600px;
     min-height: 280px;
+    box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.8);
 }
 .slider .item img {
     object-fit: cover;
@@ -409,6 +412,8 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 	justify-content: space-between;
 	margin: 0 auto;
 	max-width: 1250px;
+	box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.8);
+        background-color: rgba(0, 0, 0, 0.1);
 }
 
 @media screen and (max-width: 675px) {
@@ -494,7 +499,9 @@ margin-top: 2vw ;
 	letter-spacing: 10px;
 	text-transform: uppercase;
 	margin: 2vw 1vw;
-	text-align: center;	
+	text-align: center;
+	box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.8);
+	padding: 0 1vw;
 }
 
 .submenu {
@@ -505,6 +512,8 @@ margin-top: 2vw ;
 	margin: 2vw 2vw 4vw;
 	text-transform: uppercase;
 	text-align: center;
+	box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.8);
+	padding: 1vw;
 }
 
 .menutext {
@@ -557,6 +566,7 @@ margin-top: 2vw ;
 	margin: 3vw auto;
 	text-align: center;
 	color: white;
+	box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.8);
 }
 
 .wrapperfivepage {
@@ -570,6 +580,7 @@ margin-top: 2vw ;
 	min-height: 485px;
 	text-align: justify;
 	padding: 0 3vw;
+	box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.8);
 }
 
 .fivepageitem {
@@ -626,6 +637,7 @@ margin: 2vw 0;
 	background-color: rgba(0, 0, 0, 0.8);
 	color: white;
 	font-size: 20px;
+	box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.8);
 }
 
 .view {
@@ -711,6 +723,7 @@ margin: 2vw 0;
 	max-width: 600px;
 	height: 40vw;
 	margin: 2vw 0;
+	box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.8);
 }
 
 .popup1 {
@@ -732,6 +745,8 @@ margin: 2vw 0;
     line-height: 35px;
     letter-spacing: 3px;
     margin: 0 0 1vw 0;
+    box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.8);
+    padding: 1vw;
 }
 .popup_text{
 	font-weight: 600;
@@ -775,6 +790,8 @@ margin: 2vw 0;
 
 .sixpagefirstcolumn, .sixpagesecondcolumn {
 	margin: 2vw 2vw;
+	box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.8);
+	padding: 1vw;
 }
 
 @media screen and (max-width: 900px) {
@@ -824,5 +841,8 @@ font-size: 17px;
 #button1 {
     display: block;
 }
+.containercontent {
+	background-color: rgba(0, 0, 0, 0.5);
+	box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.8);
 }
 
