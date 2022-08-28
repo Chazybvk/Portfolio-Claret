@@ -412,8 +412,6 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 	justify-content: space-between;
 	margin: 0 auto;
 	max-width: 1250px;
-	box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.8);
-        background-color: rgba(0, 0, 0, 0.1);
 }
 
 @media screen and (max-width: 675px) {
@@ -429,6 +427,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 	text-align: center;
 	margin: 4vw 2vw;
 	background-color: rgba(0, 0, 0, 0.8);
+	box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.8);
 	padding: 1vw;
 	color: white;
 }
@@ -500,7 +499,6 @@ margin-top: 2vw ;
 	text-transform: uppercase;
 	margin: 2vw 1vw;
 	text-align: center;
-	box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.8);
 	padding: 0 1vw;
 }
 
@@ -580,7 +578,6 @@ margin-top: 2vw ;
 	min-height: 485px;
 	text-align: justify;
 	padding: 0 3vw;
-	box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.8);
 }
 
 .fivepageitem {
@@ -742,11 +739,10 @@ box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.8);
 .popup_title{
 	text-align: center;
 	font-weight: 600;
-    font-size: 20px;
+    font-size: 25px;
     line-height: 35px;
     letter-spacing: 3px;
     margin: 0 0 1vw 0;
-    box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.8);
     padding: 1vw;
 }
 .popup_text{
@@ -792,7 +788,7 @@ box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.8);
 .sixpagefirstcolumn, .sixpagesecondcolumn {
 	margin: 2vw 2vw;
 	box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.8);
-	padding: 1vw;
+	padding: 2vw;
 }
 
 @media screen and (max-width: 900px) {
@@ -845,5 +841,6 @@ font-size: 17px;
 .containercontent {
 	background-color: rgba(0, 0, 0, 0.5);
 	box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.8);
+	padding: 2vw 0;
 }
-
+}
